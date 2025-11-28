@@ -1,3 +1,5 @@
 scp -i Downloads\sup_comp Downloads\script.py edu-cmc-skmodel25-621-05@polus.hpc.cs.msu.ru:~/
 
 ssh -i Downloads\sup_comp edu-cmc-skmodel25-621-05@polus.hpc.cs.msu.ru
+
+mpisubmit.pl
