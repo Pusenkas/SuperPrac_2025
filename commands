@@ -3,3 +3,7 @@ scp -i Downloads\sup_comp Downloads\script.py edu-cmc-skmodel25-621-05@polus.hpc
 ssh -i Downloads\sup_comp edu-cmc-skmodel25-621-05@polus.hpc.cs.msu.ru
 
 mpisubmit.pl
+
+g++ openmp.cpp -fopenmp -std=c++11 -O2 
+
+mpixlC mpi.cpp -std=c++11 -O2
